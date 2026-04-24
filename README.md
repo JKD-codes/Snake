@@ -39,7 +39,6 @@ This project demonstrates core concepts of **Java GUI development, event handlin
 ## ▶️ How to Run
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/your-username/snake-game-java.git
 cd snake-game-java 
 
