@@ -49,8 +49,8 @@ javac GameFrame.java
 java GameFrame
 
 ### 📚 What I Learned
-**Building GUI applications using Java Swing**
-**Handling keyboard events with KeyListener**
-**Implementing game loops using Timer**
-**Managing state and collision detection in games**
-**Writing clean and structured object-oriented code**
+- **Building GUI applications using Java Swing**
+- **Handling keyboard events with KeyListener**
+- **Implementing game loops using Timer**
+- **Managing state and collision detection in games**
+- **Writing clean and structured object-oriented code**
