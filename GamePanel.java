@@ -53,11 +53,11 @@ public void draw(Graphics g){
 				g.setColor(Color.green);
 				g.fillRect(x[i],y[i],UNIT_SIZE,UNIT_SIZE);
 	}
-		else{
-			g.setColor(new Color(45,180,0));
-			g.setColor(new Color(random.nextInt(255),random.nextInt(255),random.nextInt(255)));
-			g.fillRect(x[i],y[i],UNIT_SIZE,UNIT_SIZE);
-}
+			else{
+				g.setColor(new Color(45,180,0));
+				g.setColor(new Color(random.nextInt(255),random.nextInt(255),random.nextInt(255)));
+				g.fillRect(x[i],y[i],UNIT_SIZE,UNIT_SIZE);
+	}
 }
 
 		g.setColor(Color.red);
@@ -67,7 +67,7 @@ public void draw(Graphics g){
 }
 else{
 	gameOver(g);
-}
+	}
 }
 	public void newApple(){
 		appleX= random.nextInt((int)(SCREEN_WIDTH/UNIT_SIZE))*UNIT_SIZE;
